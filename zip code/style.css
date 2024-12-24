@@ -1,0 +1,30 @@
+ div{
+    background-color:rgb(3, 82, 151);
+    width: 90%;
+    height: 460px;
+    margin-top: 60px;
+    padding: 10px;
+    position: relative;
+    right: -60px;
+    box-shadow: rgb(20, 21, 21) 5px 5px 8px 8px;
+}
+div:hover{
+    background-color:rgb(3, 95, 175);
+    cursor: pointer;
+} 
+h1{
+    color: white;
+}
+#codes{
+    width: 200px;
+    height: 35px;
+    background-color: rgb(218, 239, 232);
+}
+#city{
+    width: 180px;
+    height: 35px;
+    background-color: rgb(218, 239, 232);
+    border-radius: 1px;
+    border-color: black;
+    border-style: solid;
+}

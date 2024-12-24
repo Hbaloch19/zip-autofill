@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="image.png" type="image/x-icon">
+</head>
+<body>
+<div>
+   <center> <form>
+    <label for="postalcodes" id="postalcodes" ><h1><u>Select your Zip code:</u></h1></label><br><br>
+    <select id="codes" name="codes" onblur="autofill()" >
+      <option value="" >Select</option>
+      <option value="54000">54000</option>
+      <option value="47150">47150</option>
+      <option value="74200">74200</option>
+      <option value="46000">46000</option>
+      <option value="51310">51310</option>
+      <option value="71000">71000</option>
+     
+    </select>
+   <br>
+   <i> <h1 class="City"><u>City:</u></h1></i>
+    <input type="text" id="city"  readonly>
+</form></center>
+</div>
+<script src="./app.js"></script>
+</body>
+</html>
